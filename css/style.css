@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/style.css"> 
+ 
 
 /* =========================================================
    Sasirangan Banua — style.css
@@ -109,4 +109,107 @@ textarea:focus-visible {
 
 .header-situs a:focus-visible {
   outline-color: #ffffff; /* fokus putih agar terlihat di latar header yang gelap */
+}
+
+/* ---------- 4. Hero ---------- */
+.hero {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, var(--warna-krem), #f6d7a7);
+}
+
+.hero h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.2;
+  color: var(--warna-utama);
+}
+
+.hero p {
+  max-width: 40rem;
+  margin: 0 auto 1.5rem;
+}
+
+/* ---------- 5. Tombol ---------- */
+.tombol {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--radius);
+  background-color: var(--warna-utama);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.tombol:hover {
+  background-color: var(--warna-utama-gelap);
+  transform: translateY(-2px);
+}
+
+/* ---------- 6. Bagian (section) umum ---------- */
+.bagian {
+  max-width: var(--lebar-maks);
+  margin-inline: auto;
+  padding: 3rem 1rem;
+}
+
+.bagian h1,
+.bagian h2 {
+  margin-top: 0;
+  color: var(--warna-utama);
+}
+
+/* ---------- 7. Katalog (CSS Grid) ---------- */
+.katalog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.kartu {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background-color: var(--warna-kartu);
+  box-shadow: var(--bayangan);
+  transition: transform 0.2s ease;
+}
+
+.kartu:hover {
+  transform: translateY(-4px);
+}
+.kartu img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.kartu-isi {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;                  /* isi kartu mengisi sisa tinggi */
+  padding: 1rem;
+}
+
+.kartu h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+}
+
+.kartu p {
+  margin: 0 0 0.75rem;
+  color: var(--warna-teks-lembut);
+}
+
+.kartu .harga {
+  margin-top: auto;              /* harga selalu di bagian bawah kartu */
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--warna-utama);
 }
