@@ -163,6 +163,8 @@ textarea:focus-visible {
   color: var(--warna-utama);
 }
 
+
+
 /* ---------- 7. Katalog (CSS Grid) ---------- */
 .katalog-grid {
   display: grid;
@@ -213,6 +215,9 @@ textarea:focus-visible {
   font-weight: 700;
   color: var(--warna-utama);
 }
+
+
+
 /* ---------- 8. Tabel ---------- */
 table {
   width: 100%;
@@ -324,3 +329,4 @@ input[type="checkbox"] {
     transition: none !important;
   }
 }
+
