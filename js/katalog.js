@@ -29,6 +29,46 @@ const katalog = [
         gambar: "img/iris-pudak.svg",
         deskripsi: "Selendang ringan bermotif irisan daun pudak (pandan).",
     },
+    {
+    id: 4,
+    nama: "Kain Motif Bayam Raja",
+    kategori: "kain",
+    harga: 190000,
+    gambar: "img/bayam-raja.svg",
+    deskripsi: "Kain sasirangan bermotif Bayam Raja yang melambangkan kewibawaan.",
+},
+{
+    id: 5,
+    nama: "Kemeja Sasirangan Pria",
+    kategori: "pakaian",
+    harga: 250000,
+    gambar: "img/kemeja-pria.svg",
+    deskripsi: "Kemeja pria berbahan nyaman dengan motif sasirangan khas Banjar.",
+},
+{
+    id: 6,
+    nama: "Blus Sasirangan Wanita",
+    kategori: "pakaian",
+    harga: 230000,
+    gambar: "img/blus-wanita.svg",
+    deskripsi: "Blus wanita dengan motif sasirangan yang elegan.",
+},
+{
+    id: 7,
+    nama: "Tas Motif Sasirangan",
+    kategori: "aksesoris",
+    harga: 95000,
+    gambar: "img/tas-sasirangan.svg",
+    deskripsi: "Tas kain dengan sentuhan motif tradisional Sasirangan.",
+},
+{
+    id: 8,
+    nama: "Ikat Kepala Sasirangan",
+    kategori: "aksesoris",
+    harga: 45000,
+    gambar: "img/ikat-kepala.svg",
+    deskripsi: "Aksesoris ikat kepala bermotif khas Banjar.",
+},
 ];
 
 // 2. Ambil elemen-elemen HTML yang akan dimanipulasi
