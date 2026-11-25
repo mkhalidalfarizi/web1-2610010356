@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<defs><pattern id="p" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M17 3L29 17L17 31L5 17Z" fill="none" stroke="#f6d78a" stroke-width="2.5"/><circle cx="17" cy="17" r="3" fill="#f6d78a"/></pattern></defs>
+<rect width="600" height="400" fill="#f3eee3"/>
+<path d="M220 65L270 40L300 65L330 40L380 65L455 115L410 185L375 160V350H225V160L190 185L145 115Z" fill="#1d6657" stroke="#17483f" stroke-width="6" stroke-linejoin="round"/>
+<path d="M220 65L270 40L300 65L330 40L380 65L455 115L410 185L375 160V350H225V160L190 185L145 115Z" fill="url(#p)"/>
+<path d="M270 40L300 105L330 40L315 350H285Z" fill="#f3eee3" stroke="#17483f" stroke-width="4"/>
+<path d="M300 105V350" stroke="#17483f" stroke-width="3"/>
+<g fill="#f6d78a"><circle cx="300" cy="145" r="4"/><circle cx="300" cy="190" r="4"/><circle cx="300" cy="235" r="4"/><circle cx="300" cy="280" r="4"/></g>
+</svg>

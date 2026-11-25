@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<defs><pattern id="p" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M21 3L39 21L21 39L3 21Z" fill="none" stroke="#f9df9b" stroke-width="3"/><circle cx="21" cy="21" r="4" fill="#f9df9b"/></pattern></defs>
+<rect width="600" height="400" fill="#f3eee3"/>
+<path d="M215 145V105Q215 55 300 55Q385 55 385 105V145" fill="none" stroke="#6b4936" stroke-width="18" stroke-linecap="round"/>
+<rect x="145" y="135" width="310" height="220" rx="24" fill="#236657" stroke="#17483f" stroke-width="7"/>
+<rect x="155" y="145" width="290" height="200" rx="16" fill="url(#p)"/>
+<path d="M145 210H455" stroke="#f9df9b" stroke-width="5"/>
+<text x="300" y="315" text-anchor="middle" font-family="Arial" font-size="23" font-weight="bold" fill="#fff5d9">SASIRANGAN</text>
+</svg>
